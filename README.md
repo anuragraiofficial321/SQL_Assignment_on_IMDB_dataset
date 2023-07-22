@@ -1,20 +1,21 @@
 # SQL_Assignment_on_IMDB_dataset
 
+#### Download Dataset: please download from this link-
+https://drive.google.com/file/d/1O-1-L1DdNxEK6O6nG2jS31MbrMh-OnXM/view?usp=sharing
+
 ### IMDB Schema:
 
 ![db_schema](https://github.com/anuragraiofficial321/SQL_Assignment_on_IMDB_dataset/assets/130228932/15193b97-e74c-40d6-874f-74c6b349a1c7)
 
 ### In This Assignment I Solved These Queries:
 
-- 1. List all the directors who directed a 'Comedy' movie in a leap year. (You need to check that the genre is 'Comedy’ and year is a leap year) Your query should return director name, the movie name, and the year. 
+- 1. List all the directors who directed a 'Comedy' movie in a leap year. (You need to check that the genre is 'Comedy’ and year is a leap year) Your query should return the director's name, the movie name, and the year. 
 - 2. List the names of all the actors who played in the movie 'Anand' (1971) 
 - 3. List all the actors who acted in a film before 1970 and in a film after 1990. (That is: < 1970 
 and > 1990.) 
 - 4. List all directors who directed 10 movies or more, in descending order of the number of 
 movies they directed. Return the directors' names and the number of movies each of them directed. 
-- 5. 
-a. For each year, count the number of movies in that year that had only female actors. b. Now include a small change: report for each year the percentage of movies in that 
-year with only female actors, and the total number of movies made that year. For example, one answer will be: 1990 31.81 13522 meaning that in 1990 there were 13,522 movies, and 31.81% had only female actors. You do not need to round your answer. 
+- 5. a. For each year, count the number of movies in that year that had only female actors. b. Now include a small change: report for each year the percentage of movies in that year with only female actors, and the total number of movies made that year. For example, one answer will be: 1990 31.81 13522 meaning that in 1990 there were 13,522 movies, and 31.81% had only female actors. You do not need to round your answer. 
 - 6. Find the film(s) with the largest cast. Return the movie title and the size of the cast. By "cast size" we mean the number of distinct actors that played in that movie: if an actor played multiple roles, or if it simply occurs multiple times in casts, we still count her/him only once. 
 - 7. A decade is a sequence of 10 consecutive years. For example, say in your database you have movie information starting from 1965. Then the first decade is 1965, 1966, ..., 1974; the second one is 1967, 1968, ..., 1976 and so on. Find the decade D with the largest number of films and the total number of films in D. 
 - 8. Find the actors that were never unemployed for more than 3 years at a stretch. (Assume 
